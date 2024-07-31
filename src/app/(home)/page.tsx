@@ -1,12 +1,10 @@
 'use client'
 
-import Hero from '@/views/hero/Hero'
-import Navbar from '@/containers/navbar/Navbar'
 import Footer from '@/containers/footer/Footer'
-
+import Navbar from '@/containers/navbar/Navbar'
+import Hero from '@/views/hero/Hero'
 
 const Home = () => {
- 
   return (
     <main>
       <Navbar />

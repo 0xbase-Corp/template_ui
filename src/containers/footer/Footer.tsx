@@ -1,10 +1,10 @@
 // Footer.tsx
-import React from 'react';
-import { Box, Grid, Typography, TextField, Button, IconButton } from '@mui/material';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook'
+import InstagramIcon from '@mui/icons-material/Instagram'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import TwitterIcon from '@mui/icons-material/Twitter'
+import { Box, Button, Grid, IconButton, TextField, Typography } from '@mui/material'
+import React from 'react'
 
 const Footer: React.FC = () => {
   return (
@@ -57,9 +57,7 @@ const Footer: React.FC = () => {
           <Typography variant="h6" gutterBottom>
             Newsletter
           </Typography>
-          <Typography variant="body2">
-            Sign up to our newsletter to get the latest news & updates
-          </Typography>
+          <Typography variant="body2">Sign up to our newsletter to get the latest news & updates</Typography>
           <Box sx={{ mt: 2 }}>
             <TextField
               label="Enter Your Email"
@@ -87,12 +85,10 @@ const Footer: React.FC = () => {
         </Grid>
       </Grid>
       <Box sx={{ mt: 4, textAlign: 'center' }}>
-        <Typography variant="body2">
-          © 2024 Oxbase. All rights reserved.
-        </Typography>
+        <Typography variant="body2">© 2024 Oxbase. All rights reserved.</Typography>
       </Box>
     </Box>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

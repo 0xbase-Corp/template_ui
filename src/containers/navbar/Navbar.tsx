@@ -41,12 +41,7 @@ const Navbar: FC = () => {
               textDecoration: 'none',
             }}
           >
-            <Image
-              src="/assets/logo.svg"
-              alt="0xbase Logo"
-              width={140}
-              height={60}
-            />
+            <Image src="/assets/logo.svg" alt="0xbase Logo" width={140} height={60} />
           </Typography>
 
           {/* Expanded Menu */}
@@ -137,18 +132,22 @@ const Navbar: FC = () => {
               flexGrow: 1,
             }}
           >
-            <Image
-              src="/assets/logo.svg"
-              alt="FolioNomics Logo"
-              width={90}
-              height={28}
-            />
+            <Image src="/assets/logo.svg" alt="FolioNomics Logo" width={90} height={28} />
           </Typography>
 
-          <Box sx={{ display: 'flex', alignItems: 'center', border:1, borderRadius:2, borderColor: '#09EAB4', cursor: 'pointer',
-            px: { xs: 1, md: 4 },
-            py: { xs: 0.7, md: 1 },
-            fontSize: { xs: '0.7rem', md: '1rem' }, }}>
+          <Box
+            sx={{
+              display: 'flex',
+              alignItems: 'center',
+              border: 1,
+              borderRadius: 2,
+              borderColor: '#09EAB4',
+              cursor: 'pointer',
+              px: { xs: 1, md: 4 },
+              py: { xs: 0.7, md: 1 },
+              fontSize: { xs: '0.7rem', md: '1rem' },
+            }}
+          >
             Contact Us
           </Box>
         </Toolbar>
